@@ -1,9 +1,7 @@
-# Performance Review Web Application
-
-## Project Overview
+## Overview
 A minimal full-stack web application for managing employee performance reviews. Admins can add employees, create reviews, and assign reviewers. Employees can view assigned reviews and submit feedback. The app is intentionally simple, focusing on clarity and reasoning under limited requirements.
 
-## Tech Stack & Reasoning
+## Tech Stack
 - **Backend:** Node.js with Express (simple, fast, and widely used for REST APIs)
 - **Frontend:** React (without JSX, loaded via CDN for zero build tools)
 - **Styling:** Plain CSS (no frameworks for simplicity)
@@ -37,19 +35,8 @@ A minimal full-stack web application for managing employee performance reviews. 
 3. Start the frontend: `npm start` (serves on http://localhost:3000 or another port)
 4. Open the frontend in your browser and use the app.
 
-## What Could Be Improved
-- Add authentication and user roles
-- Use a real database for persistence
-- Add input validation and error handling in the UI
-- Improve UI/UX and accessibility
-- Add review deadlines and notifications
-- Use JSX and a build tool for better developer experience
-
 ## Design Decisions
 - **No authentication:** To keep the demo simple and focused on core logic. User selection is mocked via dropdowns.
-- **No database:** In-memory storage is fast to implement and sufficient for a demo. Persistence is not required.
-- **No JSX:** Avoids the need for Babel or build steps, making the frontend runnable as static files.
+- **No database:** In-memory storage is fast to implement and sufficient for a demo.
 
----
 
-**Simplicity, clarity, and intentional design were prioritized over completeness or polish.**
